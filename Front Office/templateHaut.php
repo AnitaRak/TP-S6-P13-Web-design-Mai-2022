@@ -29,17 +29,6 @@
                 </ul>
                 </div>
               </li>
-              <li><a href="#">Contact</a></li>
-              <li class="dropdown"><a href="#">Others &nbsp;<i class="fa fa-caret-down"></i> </a>
-               <div class="dd">
-                 <div id="u_a_c"><div id="up_arrow"></div></div>
-                <ul>
-
-                  <li><a href="#">DOCS</a></li>
-                  <li><a href="#">API</a></li>
-                  <li><a href="#">PROJECTS</a></li>
-                </ul>
-                </div>
             </ul>
       </nav>
     </div>

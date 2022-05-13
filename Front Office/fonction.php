@@ -66,7 +66,7 @@
     
     function getUrl(){
         $pieces = explode("/", $_SERVER['REQUEST_URI']);
-        $u = explode(".", $pieces[3]);
+        $u = explode(".", $pieces[4]);
         $res = explode("-", $u[0]);
         $vraiURL = "";
         for ($i=0; $i <count($res) - 1 ; $i++) { 
@@ -104,7 +104,7 @@
             }
             
             $nom_file = $url.".html";
-            $texte = "<h1>A propos de :".$titre."</h1>
+            $texte = "<h2>A propos de :".$titre."</h2>
             <p><Strong> Date : </Strong>".$Date."</p>
             <p><Strong> Pays : </Strong>".$Pays."</p>
             <p><Strong>Contenue : </Strong>".$Contenu."</p>
