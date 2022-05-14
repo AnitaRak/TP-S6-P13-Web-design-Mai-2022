@@ -1,5 +1,5 @@
 <?php
-    include ('fonction.php');
+    include ('../../inc/fonction.php');
     $listP = lesPays();
 ?>
 <!DOCTYPE html>
@@ -17,8 +17,8 @@
               Climat
             </div>
             <ul>
-              <li><a href="http://rechauffement-climatique/rechauffement-climatique/index.php">Home</a></li>
-              <li><a href="http://rechauffement-climatique/rechauffement-climatique/actualité">Actualités</a></li>
+              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Front%20Office/index.php">Home</a></li>
+              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Front%20Office/actualité">Actualités</a></li>
               <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Pays &nbsp;<i class="fa fa-caret-down"></i></a>
                 <div class="dd">
                   <div id="up_arrow"></div>

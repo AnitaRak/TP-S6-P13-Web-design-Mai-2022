@@ -17,16 +17,9 @@
                 Admin
             </div>
             <ul>
-              <li><a href="http://rechauffement-climatique/rechauffement-climatique/index.php"></a></li>
-              <li><a href="http://rechauffement-climatique/rechauffement-climatique/actualité">Actualités</a></li>
-              <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Pays &nbsp;<i class="fa fa-caret-down"></i></a>
-                <div class="dd">
-                  <div id="up_arrow"></div>
-                <ul>
-                    
-                </ul>
-                </div>
-              </li>
+              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Back%20Office/home.php">Home</a></li>
+              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Back%20Office/crud.php">Actualités</a></li>
+              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Back%20Office/index.php">Deconnexion</a></li>
             </ul>
       </nav>
     </div>
