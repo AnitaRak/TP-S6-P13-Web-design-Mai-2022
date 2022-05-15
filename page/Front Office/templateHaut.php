@@ -19,16 +19,6 @@
             <ul>
               <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Front%20Office/index.php">Home</a></li>
               <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Front%20Office/actualité">Actualités</a></li>
-              <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Pays &nbsp;<i class="fa fa-caret-down"></i></a>
-                <div class="dd">
-                  <div id="up_arrow"></div>
-                <ul>
-                    <?php foreach($listP as $t) {  ?>
-                        <li><a href="#"><?php echo $t['nom']; ?></a></li>
-                    <?php } ?>
-                </ul>
-                </div>
-              </li>
             </ul>
       </nav>
     </div>
