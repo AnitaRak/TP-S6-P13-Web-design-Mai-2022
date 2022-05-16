@@ -5,6 +5,7 @@
     setlocale(LC_TIME, "fr_FR", "French");
     $idj = $_GET['id'];
     $listJ = getActualite($idj);
+    var_dump($listJ);
     foreach($listJ as $li){
         $date = utf8_encode(strftime("%d %B %Y", strtotime($li['daty'])));
     }
