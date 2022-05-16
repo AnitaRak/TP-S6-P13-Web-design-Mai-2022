@@ -5,7 +5,6 @@
     setlocale(LC_TIME, "fr_FR", "French");
     $idj = $_GET['id'];
     $listJ = getActualite($idj);
-    var_dump($listJ);
     foreach($listJ as $li){
         $date = utf8_encode(strftime("%d %B %Y", strtotime($li['daty'])));
     }
@@ -25,7 +24,9 @@
     <title><?php echo $listJ['tilte'] ?></title>
 </head>
 <body>
+    
     <?php
+        echo "atoooo";
         $nom_fichier =$vraiURL.".html";
         if(file_exists($nom_fichier)){
             require($vraiURL.".html");
