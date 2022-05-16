@@ -72,6 +72,7 @@
 
     function getUrl(){
         $pieces = explode("/", $_SERVER['REQUEST_URI']);
+        echo $_SERVER['REQUEST_URI'];
         $u = explode(".", $pieces[4]);
         $res = explode("-", $u[0]);
         $vraiURL = "";
