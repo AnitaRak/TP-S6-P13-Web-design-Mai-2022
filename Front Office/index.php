@@ -11,7 +11,7 @@ h2 { color: #77b5fe; }
     <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
-    <img class="card-img-top" src="https://projets6backoffice.herokuapp.com/Back%20Office/image/fon1.jpg" alt="Card image cap" width="180" height="180">
+    <img class="card-img-top" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/fon1.jpg" alt="Card image cap" width="180" height="180">
     <br></br>
         <p>&emsp;Le climat se réchauffe par l’accroissement inexorable de la concentration dans l’atmosphère des gaz à effet de serre liés aux activités humaines. 
             Une transition écologique est d'autant plus nécessaire lorsque l'on sait qu'un réchauffement de plus de 2°C par rapport aux niveaux préindustriels pourrait avoir des conséquences irrévocables.
@@ -26,7 +26,7 @@ h2 { color: #77b5fe; }
             <div class="card" style="width: 800px;">
                 <div class="row no-gutters">
                     <div class="col-sm-2">
-                        <img class="card-img" src="https://projets6backoffice.herokuapp.com/Back%20Office/image/productionEnergie.jpg" alt="Suresh Dasari Card">
+                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/productionEnergie.jpg" alt="Suresh Dasari Card">
                     </div>
                     <div class="col-sm-10">
                         <div class="card-body">
@@ -40,7 +40,7 @@ h2 { color: #77b5fe; }
             <div class="card" style="width: 800px;">
                 <div class="row no-gutters">
                     <div class="col-sm-2">
-                        <img class="card-img" src="https://projets6backoffice.herokuapp.com/Back%20Office/image/productionIndustrielle.jpg" alt="Suresh Dasari Card">
+                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/productionIndustrielle.jpg" alt="Suresh Dasari Card">
                     </div>
                     <div class="col-sm-10">
                         <div class="card-body">
@@ -54,7 +54,7 @@ h2 { color: #77b5fe; }
             <div class="card" style="width: 800px;">
                 <div class="row no-gutters">
                     <div class="col-sm-2">
-                        <img class="card-img" src="https://projets6backoffice.herokuapp.com/Back%20Office/image/deforestation1.jpg" alt="Suresh Dasari Card">
+                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/deforestation1.jpg" alt="Suresh Dasari Card">
                     </div>
                     <div class="col-sm-10">
                         <div class="card-body">

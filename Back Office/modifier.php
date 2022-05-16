@@ -20,8 +20,8 @@
                 Admin
             </div>
             <ul>
-              <li><a href="https://projets6backoffice.herokuapp.com/index.php"></a></li>
-              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/crud.php">Actualités</a></li>
+              <li><a href="https://echauffement-climatique.herokuapp.com/index.php"></a></li>
+              <li><a href="https://echauffement-climatique.herokuapp.com/Back%20Office/crud.php">Actualités</a></li>
             </ul>
       </nav>
     </div>
