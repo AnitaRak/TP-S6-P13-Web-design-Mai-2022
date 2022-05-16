@@ -41,18 +41,6 @@
         return $data;
     }
 
-    function lesConsequences(){
-        include ("connexion.php");
-        $data = $conn->query("SELECT * FROM conséquence")->fetchAll();
-        return $data;
-    }
-
-    function lesSolutions(){
-        include ("connexion.php");
-        $data = $conn->query("SELECT * FROM solution")->fetchAll();
-        return $data;
-    }
-
     function lesActualites()
     {
         include ("connexion.php");
@@ -84,7 +72,7 @@
 
     function getUrl(){
         $pieces = explode("/", $_SERVER['REQUEST_URI']);
-        $u = explode(".", $pieces[5]);
+        $u = explode(".", $pieces[4]);
         $res = explode("-", $u[0]);
         $vraiURL = "";
         for ($i=0; $i <count($res) - 1 ; $i++) { 
@@ -122,11 +110,29 @@
             }
             
             $nom_file = $url.".html";
-            $texte = "<h2>A propos de :".$titre."</h2>
+            $texte = "
+            <div class='row'>
+            <div class='col-md-2'></div>
+            <div class='col-md-8'>
+            <div class='card-deck'>
+                <div class='card'>
+                <img class='card-img-top' src='http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/".$sary."' alt='Card image cap' width='180' height='180'>
+                <div class='card-body'>
+                <h5 class='card-title'>".$titre."</h5>
+                <p class='card-text'>".$Contenu."</p>
+                </div>
+            </div>
+            </div>
+            <div class='col-md-2'></div>
+            ";
+            /*$texte = "
+            <center>
+            <h2>A propos de :".$titre."</h2>
             <p><Strong> Date : </Strong>".$Date."</p>
             <p><Strong> Pays : </Strong>".$Pays."</p>
             <p><Strong>Contenue : </Strong>".$Contenu."</p>
-            <p><Strong>Image : </Strong>".$sary."</p>";
+            <p><Strong>Image : </Strong>".$sary."</p>
+            </center>";*/
 
             // création du fichier
             $f = fopen($nom_file, "x+");

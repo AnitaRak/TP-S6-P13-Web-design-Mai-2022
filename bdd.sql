@@ -46,22 +46,3 @@ create table cause(
 insert into cause(titre,apropos,sary)values('Deforestation','La déforestation est la résultante d´un changement d´usage des sols forestiers permanent. Dans la grande majorité des cas, les forêts sont coupées pour la mise en place d´activités agricoles (73 %), pour l´expansion urbaine (10 %), le développement d´infrastructures (10 %), et enfin l´exploitation minière (7 %).','images/sary1');
 insert into cause(titre,apropos,sary)values('Effet serre','Utilisation gaz effet serre :fumer usine, voiture','images/sary2');
 
-
-create table conséquence(
-    id Serial PRIMARY KEY,
-    consequence Text
-);
-insert into conséquence(consequence)values('Polution de l´air,sol,de l´eau');
-insert into conséquence(consequence)values('Dispartion des differentes vie : vie aquatic, vie aerienne,vie terreste');
-insert into conséquence(consequence)values('Pertubation du climat : manque de pluie,desertification');
-insert into conséquence(consequence)values('Catastrophe naturel');
-
-create table solution(
-    id Serial PRIMARY KEY,
-    solution Text 
-);
-
-
-insert into solution(solution)values('Modification du calendrier cultural');
-insert into solution(solution)values('Ne plus utiliser des energie à combustion');
-insert into solution(solution)values('Utilisation des energies renouvelable');
