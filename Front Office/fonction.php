@@ -107,7 +107,7 @@
                 $Pays = $l['nom'];
                 $Contenu = $l['apropos'];
                 $sary = $l['sary'];
-            echo "https://projets6backoffice.herokuapp.com/Back%20Office/image/".$sary;
+            //echo "https://projets6backoffice.herokuapp.com/Back%20Office/image/".$sary;
             $nom_file = $url.".html";
             $texte = "
             <div class='row'>
@@ -116,7 +116,7 @@
                 <div class='card' style='width: 800px;'>
                     <div class='row no-gutters'>
                         <div class='col-sm-2'>
-                            <img class='card-img' src='https://projets6backoffice.herokuapp.com/Back%20Office/image/".$sary."'>
+                            <img class='card-img' src='https://projets6backoffice.herokuapp.com/Back%20Office/".$sary."'>
                         </div>
                         <div class='col-sm-10'>
                             <div class='card-body'>
