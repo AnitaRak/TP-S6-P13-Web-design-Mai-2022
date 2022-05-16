@@ -107,7 +107,7 @@
                 $Pays = $l['nom'];
                 $Contenu = $l['apropos'];
                 $sary = $l['sary'];
-            }
+            echo "https://projets6backoffice.herokuapp.com/Back%20Office/image/".$sary;
             $nom_file = $url.".html";
             $texte = "
             <div class='row'>
