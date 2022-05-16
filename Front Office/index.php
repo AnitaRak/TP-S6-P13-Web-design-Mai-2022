@@ -1,8 +1,5 @@
 <?php include 'templateHaut.php';
 ?>
-<?php
-    $listC = lesCauses();
-?>
 <style>
 h1 { color: #77b5fe; }
 h2 { color: #77b5fe; }
