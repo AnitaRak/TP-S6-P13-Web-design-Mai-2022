@@ -10,6 +10,7 @@
     }
     $vraiURL = getUrl();
     $ts = urlTsMet($vraiURL);
+    echo $ts;
 
 ?>
 <?php 
