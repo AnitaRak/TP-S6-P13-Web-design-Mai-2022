@@ -109,34 +109,7 @@
         return $retour;
 
     }
-    function creerHtml($idj){
-        $url = getUrl();
-        if(!file_exists($url.".html")){
-            $listJ = getActualite($idj);
-            foreach($listJ as $l){
-                $titre = $l['tilte'];
-                $Date = $l['daty'];
-                $Pays = $l['nom'];
-                $Contenu = $l['apropos'];
-                $sary = $l['sary'];
-            }
-            
-            $nom_file = $url.".html";
-            $texte = "<h2>A propos de :".$titre."</h2>
-            <p><Strong> Date : </Strong>".$Date."</p>
-            <p><Strong> Pays : </Strong>".$Pays."</p>
-            <p><Strong>Contenue : </Strong>".$Contenu."</p>
-            <p><Strong>Image : </Strong>".$sary."</p>";
-
-            // création du fichier
-            $f = fopen($nom_file, "x+");
-            // écriture
-            fputs($f, $texte );
-            // fermeture
-            fclose($f);
-        }
-        
-    }
+    
     
 
 ?>

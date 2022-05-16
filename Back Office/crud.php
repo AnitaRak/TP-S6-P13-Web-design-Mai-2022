@@ -44,9 +44,9 @@ $(document).ready(function(){
               Climat
             </div>
             <ul>
-              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Back%20Office/home.php">Home</a></li>
-              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/crud.php">Actualités</a></li>
-              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/index.php">Deconnexion</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/home.php">Home</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/crud.php">Actualités</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/index.php">Deconnexion</a></li>
             </ul>
       </nav>
 </div>
@@ -100,8 +100,8 @@ $(document).ready(function(){
                         <td><?php echo $t['apropos']; ?></td>
                         <td><img  src="<?php echo $t['sary']; ?>" width="100" height="100"></td>
                         <td>
-                            <a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/modifier.php?id=<?php echo $t['idactualite']; ?>"" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                            <a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/delete.php?id=<?php echo $t['idactualite']; ?>" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            <a href="https://projets6backoffice.herokuapp.com/Back%20Office/modifier.php?id=<?php echo $t['idactualite']; ?>"" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                            <a href="https://projets6backoffice.herokuapp.com/Back%20Office/delete.php?id=<?php echo $t['idactualite']; ?>" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                         </td>
                     </tr>
                 <?php } ?>

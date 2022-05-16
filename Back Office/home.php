@@ -17,9 +17,9 @@
                 Admin
             </div>
             <ul>
-              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/home.php">Home</a></li>
-              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/crud.php">Actualités</a></li>
-              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/index.php">Deconnexion</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/home.php">Home</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/crud.php">Actualités</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/index.php">Deconnexion</a></li>
             </ul>
       </nav>
     </div>

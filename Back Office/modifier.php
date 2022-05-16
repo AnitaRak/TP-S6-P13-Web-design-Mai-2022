@@ -20,8 +20,8 @@
                 Admin
             </div>
             <ul>
-              <li><a href="http://rechauffement-climatique/rechauffement-climatique/index.php"></a></li>
-              <li><a href="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/page/Back%20Office/crud.php">Actualités</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/index.php"></a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Back%20Office/crud.php">Actualités</a></li>
             </ul>
       </nav>
     </div>
