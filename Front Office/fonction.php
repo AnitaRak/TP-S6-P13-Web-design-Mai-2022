@@ -114,6 +114,25 @@
             <div class='row'>
             <div class='col-md-2'></div>
             <div class='col-md-8'>
+                <div class='card' style='width: 800px;'>
+                    <div class='row no-gutters'>
+                        <div class='col-sm-2'>
+                            <img class='card-img' src='http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/".$sary."'>
+                        </div>
+                        <div class='col-sm-10'>
+                            <div class='card-body'>
+                                <h5 class='card-title'>".$titre." le ".$Date." à ".$Pays."</h5>
+                                <p class='card-text'>".$Contenu ."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>";
+            /*$texte = "
+            <div class='row'>
+            <div class='col-md-2'></div>
+            <div class='col-md-8'>
             <div class='card-deck'>
                 <div class='card'>
                 <img class='card-img-top' src='http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/".$sary."' alt='Card image cap' width='180' height='180'>
@@ -125,7 +144,7 @@
             </div>
             <div class='col-md-2'></div>
             ";
-            /*$texte = "
+            $texte = "
             <center>
             <h2>A propos de :".$titre."</h2>
             <p><Strong> Date : </Strong>".$Date."</p>

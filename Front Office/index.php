@@ -14,7 +14,7 @@ h2 { color: #77b5fe; }
     <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
-    <img class="card-img-top" src="images/fon1" alt="Card image cap" width="180" height="180">
+    <img class="card-img-top" src="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/image/fon1" alt="Card image cap" width="180" height="180">
     <br></br>
         <p>&emsp;Le climat se réchauffe par l’accroissement inexorable de la concentration dans l’atmosphère des gaz à effet de serre liés aux activités humaines. 
             Une transition écologique est d'autant plus nécessaire lorsque l'on sait qu'un réchauffement de plus de 2°C par rapport aux niveaux préindustriels pourrait avoir des conséquences irrévocables.
@@ -22,8 +22,53 @@ h2 { color: #77b5fe; }
         <h2>1. Definition</h2>
         <p><Strong>&emsp;Le réchauffement climatique</Strong>, appelé également réchauffement planétaire
             , est un phénomène qui se caractérise par l’augmentation du niveau moyen de la température à la surface de la Terre</p>
-        
-        <h2>2. Conséquences</h2>
+
+        <h2>2. Causes </h2>    
+        <div class="container bcontent">
+            
+            <div class="card" style="width: 800px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-2">
+                        <img class="card-img" src="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/image/productionEnergie.jpg" alt="Suresh Dasari Card">
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Production d’énergie</h5>
+                            <p class="card-text">Une grande partie des émissions mondiales de gaz à effet de serre provient de l’utilisation de combustibles fossiles — tels que le charbon, le pétrole et le gaz naturel — pour produire de l’électricité et de la chaleur. La production d’électricité dépend encore majoritairement des combustibles fossiles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="card" style="width: 800px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-2">
+                        <img class="card-img" src="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/image/productionIndustrielle.jpg" alt="Suresh Dasari Card">
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Production industrielle</h5>
+                            <p class="card-text">La production industrielle rejette des émissions de gaz, essentiellement du fait de son utilisation des combustibles fossiles pour produire l’énergie nécessaire à la fabrication de matériaux tels que le ciment, le fer, l’acier, l’électronique, le plastique et le textile, ainsi que d’autres biens.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="card" style="width: 800px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-2">
+                        <img class="card-img" src="http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/image/deforestation1.jpg" alt="Suresh Dasari Card">
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Déforestation</h5>
+                            <p class="card-text">La déforestation au profit d’exploitations agricoles, de pâturages ou autre, rejette également des émissions de gaz à effet de serre, puisque les arbres, lorsqu’ils sont abattus, libèrent le carbone qu’ils ont stocké. La destruction des forêts, qui absorbent le dioxyde de carbone, limite également la capacité de la nature à empêcher les émissions de gaz d’entrer dans l’atmosphère.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>3. Conséquences</h2>
         <p>Le <strong>changement climatique</strong> modifie l’équilibre thermique de la Terre et a de nombreuses conséquences sur l’homme et l’environnement. 
         On distingue les conséquences directes des conséquences indirectes du changement climatique. Des points de bascule dans le système climatique aux conséquences imprévisibles et irrévocables pourraient bientôt être atteints</p>
 
@@ -35,7 +80,7 @@ h2 { color: #77b5fe; }
         <p>- acidification des océans due aux concentrations de HCO3 élevées dans l’eau en raison de la hausse des concentrations de CO2</p>
         <p>- perte de la biodiversité en raison de la capacité et de la vitesse d’adaptation limitées de la faune et de la flore</p>
         
-        <h2>3. Solutions</h2>
+        <h2>4. Solutions</h2>
         <ul>
             <li>Économiser l’énergie à la maison</li>
             <p>Notre électricité et notre chauffage proviennent en grande partie du charbon, du pétrole et du gaz. Il est possible de réduire sa consommation d’énergie en diminuant le chauffage et la climatisation, 
@@ -50,18 +95,6 @@ h2 { color: #77b5fe; }
                 La production d’aliments d’origine végétale entraîne généralement moins d’émissions de gaz à effet de serre et nécessite moins d’énergie, de terres et d’eau</p>
 
         </ul>        
-        <h2>4. Cause</h2>
-        <p>&nbsp;Plusieur causes peut causer <Strong>le réchauffement climatique</Strong>:</p>
-        <?php foreach($listC as $t) {  ?>
-            <div class="card-deck">
-                <div class="card">
-                <img class="card-img-top" src= "http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/<?php echo $t['sary']; ?>" alt="Card image cap" width="180" height="180">
-                <div class="card-body">
-                <h5 class="card-title"><?php echo $t['titre']; ?></h5>
-                <p class="card-text"><?php echo $t['apropos']; ?></p>
-                </div>
-            </div>
-        <?php } ?>
     </div>
     <div class="col-md-2"></div>
 </ul>
