@@ -1,5 +1,5 @@
 <?php
-        $host = 'localhost';
+        /*$host = 'localhost';
         $dbname = 'rechauffement-climatique';
         $username = 'postgres';
         $password = 'tantely10';
@@ -14,8 +14,8 @@
             }
         }catch (PDOException $e){
             echo $e->getMessage();
-        }
-        /*
+        }*/
+        
         $host = 'ec2-3-229-11-55.compute-1.amazonaws.com';
         $dbname = 'dm4lhn0slo10c';
         $username = 'iqleyholaitonp';
@@ -31,6 +31,6 @@
             }
         }catch (PDOException $e){
             echo $e->getMessage();
-        }*/
+        }
     
 ?>
