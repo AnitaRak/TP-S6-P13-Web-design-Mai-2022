@@ -15,10 +15,10 @@
         }catch (PDOException $e){
             echo $e->getMessage();
         }*/
-        $host = 'ec2-3-229-11-55.compute-1.amazonaws.com';
-        $dbname = 'dm4lhn0slo10c';
-        $username = 'iqleyholaitonp';
-        $password = 'd6ef3b17ef32a85c3efbaa46c144dbc276538f416445e9a9067e4ff6c6230f99';
+        $host = 'ec2-52-86-115-245.compute-1.amazonaws.com';
+        $dbname = 'd9kiu43f8cvns6';
+        $username = 'ewodqjpfhwowsr';
+        $password = '520d34b9f0b56bd6bfac6107b39a88d755ed49007b4bb66a1c5cc9c1f85c802d';
  
         $dsn = "pgsql:host=$host;port=5432;dbname=$dbname;user=$username;password=$password";
    

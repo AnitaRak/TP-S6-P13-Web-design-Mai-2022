@@ -1,3 +1,3 @@
 # TP-S6-P13-Web-design-Mai-2022
-URL BO : https://projets6backoffice.herokuapp.com/Back Office
-URL FO : https://projets6backoffice.herokuapp.com/Front Office
+URL BO : https://echauffement-climatique.herokuapp.com/Back%20Office/
+URL FO : https://echauffement-climatique.herokuapp.com/Front%20Office/
