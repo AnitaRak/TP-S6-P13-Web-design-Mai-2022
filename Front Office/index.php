@@ -11,7 +11,7 @@ h2 { color: #77b5fe; }
     <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
-    <img class="card-img-top" src="https://projets6backoffice.herokuapp.com/Back%20Office/image/fon1" alt="Card image cap" width="180" height="180">
+    <img class="card-img-top" src="https://projets6backoffice.herokuapp.com/Back%20Office/image/fon1jpg" alt="Card image cap" width="180" height="180">
     <br></br>
         <p>&emsp;Le climat se réchauffe par l’accroissement inexorable de la concentration dans l’atmosphère des gaz à effet de serre liés aux activités humaines. 
             Une transition écologique est d'autant plus nécessaire lorsque l'on sait qu'un réchauffement de plus de 2°C par rapport aux niveaux préindustriels pourrait avoir des conséquences irrévocables.
