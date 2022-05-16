@@ -1,5 +1,5 @@
 <?php
-    include ('../../inc/fonction.php');
+    include ('fonction.php');
     $listP = lesPays();
     $id = $_GET['id'];
     $ac= getActualite($id)

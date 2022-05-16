@@ -19,9 +19,20 @@ create table actualite(
     daty date ,
     apropos Text,
     sary varchar(50),
+    url varchar(50),
     FOREIGN KEY (id_pays) REFERENCES pays(id)
 );
-create view listeActualite as SELECT actualite.id as idActualite ,tilte,daty,apropos,sary,nom  FROM actualite join Pays on actualite.id_Pays = Pays.id
+
+CREATE OR REPLACE VIEW listeactualite AS 
+ SELECT actualite.id AS idactualite,
+    actualite.tilte,
+    actualite.daty,
+    actualite.apropos,
+    actualite.sary,
+    pays.nom,
+    actualite.url
+   FROM actualite
+     JOIN pays ON actualite.id_pays = pays.id;
 
 insert into actualite(id_pays,tilte,daty,apropos,sary)values(1,'la famine dans le sud','2022-03-25','Selon le Programme alimentaire Mondial, la famine liée à la grave sècheresse qui frappe le Grand Sud de Madagascar serait dûe au réchauffement climatique. Une affirmation reprise notamment par les autorités malgaches mais qui est aujourd´hui battue en brèche par une étude scientifique d´experts des événements climatiques extrêmes','images/famine');
 

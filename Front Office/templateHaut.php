@@ -1,5 +1,5 @@
 <?php
-    include ('../../inc/fonction.php');
+    include ('fonction.php');
     $listP = lesPays();
 ?>
 <!DOCTYPE html>

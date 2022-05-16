@@ -1,6 +1,5 @@
 <?php
-    $id = $_POST['id'];
-    include ('../../inc/fonction.php');
+    include ('fonction.php');
     $idpays = $_POST['pays'];
     $titre = $_POST['titre'];
     $date = $_POST['date'];
@@ -21,6 +20,7 @@
         exit("Impossible de copier le fichier dans $content_dir");
     }
     echo "Le fichier a bien été uploadé";
-    modifierActualite($id,$idpays,$titre,$date,$apropos,$sary,$url);
-    header('Location: crud.php');
+    insertActualite($idpays,$titre,$date,$apropos,$sary,$url);
+    echo "vita";
+    header('Location: home.php');
 ?>

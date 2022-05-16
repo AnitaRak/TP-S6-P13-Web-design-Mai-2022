@@ -1,5 +1,5 @@
 <?php
-    include('../../inc/fonction.php');
+    include ('fonction.php');
     $email = $_POST["email"];
     $mdp = $_POST["mdp"];
     $admin = authentification();
