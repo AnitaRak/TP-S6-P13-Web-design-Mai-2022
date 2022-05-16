@@ -9,9 +9,7 @@
         $date = utf8_encode(strftime("%d %B %Y", strtotime($li['daty'])));
     }
     $vraiURL = getUrl();
-    echo $vraiURL;
     $ts = urlTsMet($vraiURL);
-    echo $ts;
 
 ?>
 <?php 
