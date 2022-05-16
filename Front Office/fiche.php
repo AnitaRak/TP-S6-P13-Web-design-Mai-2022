@@ -26,7 +26,6 @@
 <body>
     
     <?php
-        echo "atoooo";
         $nom_fichier =$vraiURL.".html";
         if(file_exists($nom_fichier)){
             require($vraiURL.".html");

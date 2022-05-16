@@ -117,7 +117,7 @@
                 <div class='card' style='width: 800px;'>
                     <div class='row no-gutters'>
                         <div class='col-sm-2'>
-                            <img class='card-img' src=https://projets6backoffice.herokuapp.com/Back%20Office/".$sary."'>
+                            <img class='card-img' src=https://projets6backoffice.herokuapp.com/Back%20Office/image".$sary."'>
                         </div>
                         <div class='col-sm-10'>
                             <div class='card-body'>
@@ -129,30 +129,6 @@
                 </div>
             </div>
             </div>";
-            /*$texte = "
-            <div class='row'>
-            <div class='col-md-2'></div>
-            <div class='col-md-8'>
-            <div class='card-deck'>
-                <div class='card'>
-                <img class='card-img-top' src='http://rechauffement-climatique/TP-S6-P13-Web-design-Mai-2022/Back%20Office/".$sary."' alt='Card image cap' width='180' height='180'>
-                <div class='card-body'>
-                <h5 class='card-title'>".$titre."</h5>
-                <p class='card-text'>".$Contenu."</p>
-                </div>
-            </div>
-            </div>
-            <div class='col-md-2'></div>
-            ";
-            $texte = "
-            <center>
-            <h2>A propos de :".$titre."</h2>
-            <p><Strong> Date : </Strong>".$Date."</p>
-            <p><Strong> Pays : </Strong>".$Pays."</p>
-            <p><Strong>Contenue : </Strong>".$Contenu."</p>
-            <p><Strong>Image : </Strong>".$sary."</p>
-            </center>";*/
-
             // création du fichier
             $f = fopen($nom_file, "x+");
             // écriture
