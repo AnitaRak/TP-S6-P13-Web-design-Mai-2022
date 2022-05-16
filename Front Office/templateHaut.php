@@ -24,7 +24,7 @@
             </div>
             <ul>
               <li><a href="https://projets6backoffice.herokuapp.com/Front%20Office/index.php">Home</a></li>
-              <li><a href="https://projets6backoffice.herokuapp.com/Front%20Office/actualité">Actualités</a></li>
+              <li><a href="https://projets6backoffice.herokuapp.com/Front%20Office/actualité.php">Actualités</a></li>
             </ul>
       </nav>
     </div>
