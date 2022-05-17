@@ -9,7 +9,8 @@ Avant:
 Performance : 99%
 DIAGNOSTIC :
     - Les éléments d'image ne possèdent pas de width ni de height explicites
-    - Mise en cache des css
+    - Mise en cache les css
+
 
 Apres : 
 Performance : 100%
