@@ -34,13 +34,6 @@
         return $text;
     }
     
-    function lesCauses()
-    {
-        include ("connexion.php");
-        $data = $conn->query("SELECT * FROM cause")->fetchAll();
-        return $data;
-    }
-
     function lesActualites()
     {
         include ("connexion.php");
@@ -54,21 +47,6 @@
         return $data;
     }
 
-    function delete($id){
-        include('connexion.php'); 
-        $requete = ("delete from actualite where id =".$id);
-        echo $requete;
-        $res = $conn->prepare($requete);
-        $exec = $res->execute();
-    }
-
-    function modifierActualite($id,$id_pays,$tilte,$daty,$apropos,$sary,$url) {   
-        include('connexion.php'); 
-        $requete = "UPDATE actualite set id_pays = ".$id_pays." , tilte = '".$tilte."' , daty = '".$daty."' , apropos = '".$apropos."' , sary = 'image/".$sary."' , url = '".$url."' where id = ".$id;
-        echo $requete;
-        $res = $conn->prepare($requete);
-        $exec = $res->execute();
-    }
 
     function getUrl(){
         $pieces = explode("/", $_SERVER['REQUEST_URI']);
