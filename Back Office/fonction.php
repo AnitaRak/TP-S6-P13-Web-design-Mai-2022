@@ -84,11 +84,11 @@
 
     function recherche($pays,$date){
         include('connexion.php');
-        if($pays == "" ){
+        if($daty == "" ){
             echo "ATOO";
             $data = $conn->query("SELECT * FROM listeActualite Where nom = '" . $pays."'")->fetchAll();
         }
-        if($date == ""){
+        if($pays == ""){
             echo "ATOO1";
             $data = $conn->query("SELECT * FROM listeActualite Where daty = '" . $date."'")->fetchAll();
         }
