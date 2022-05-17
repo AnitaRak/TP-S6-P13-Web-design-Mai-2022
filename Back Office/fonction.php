@@ -82,6 +82,17 @@
         $exec = $res->execute();
     }
 
+    function recherhche($pays,$date){
+        include('connexion.php');
+        if($pays == null ){
+            $data = $conn->query("SELECT * FROM listeActualite Where pays = " . $pays)->fetchAll();
+        }
+        if($date == null){
+            $data = $conn->query("SELECT * FROM listeActualite Where daty = " . $date)->fetchAll();
+        }
+        return $data;
+    }
+
     function getUrl(){
         $pieces = explode("/", $_SERVER['REQUEST_URI']);
         $u = explode(".", $pieces[5]);
@@ -114,5 +125,3 @@
 
 ?>
     
-
-?>

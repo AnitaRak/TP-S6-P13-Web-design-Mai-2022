@@ -1,5 +1,9 @@
 <?php
     include ('fonction.php');
+    $pays = $_GET['pays'];
+    $date = $_GET['date'];
+    echo "pays".$pays;
+    echo "date".$date;
     $listP = lesPays();
     $listAct = lesActualites();
 ?>
