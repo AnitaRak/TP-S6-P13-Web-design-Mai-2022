@@ -5,7 +5,7 @@
     echo "pays".$pays;
     echo "date".$date;
     $listP = lesPays();
-    $listAct = recherche();
+    $listAct = recherche($pays,$date);
     var_dump($listAct);
 
 ?>
