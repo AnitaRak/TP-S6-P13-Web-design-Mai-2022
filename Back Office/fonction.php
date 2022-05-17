@@ -85,12 +85,15 @@
     function recherche($pays,$date){
         include('connexion.php');
         if($pays == "" ){
+            echo "ATOO";
             $data = $conn->query("SELECT * FROM listeActualite Where nom = '" . $pays."'")->fetchAll();
         }
         if($date == ""){
+            echo "ATOO1";
             $data = $conn->query("SELECT * FROM listeActualite Where daty = '" . $date."'")->fetchAll();
         }
         if($pays != "" &&  $date != "" ){
+            echo "ATOO2";
             $data = $conn->query("SELECT * FROM listeActualite Where daty = '" . $date ." ' and nom = '" .$pays."'")->fetchAll();
         }
         return $data;
