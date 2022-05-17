@@ -2,11 +2,8 @@
     include ('fonction.php');
     $pays = $_GET['pays'];
     $date = $_GET['date'];
-    echo "pays".$pays;
-    echo "date".$date;
     $listP = lesPays();
     $listAct = recherche($pays,$date);
-    var_dump($listAct);
 
 ?>
 <!DOCTYPE html>
@@ -24,24 +21,6 @@
 <link href="style2.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(){
-	$('[data-toggle="tooltip"]').tooltip();
-	// Animate select box length
-	var searchInput = $(".search-box input");
-	var inputGroup = $(".search-box .input-group");
-	var boxWidth = inputGroup.width();
-	searchInput.focus(function(){
-		inputGroup.animate({
-			width: "300"
-		});
-	}).blur(function(){
-		inputGroup.animate({
-			width: boxWidth
-		});
-	});
-});
-</script>
 </head>
 <body>
 <div id="container">
