@@ -21,6 +21,5 @@
     }
     echo "Le fichier a bien été uploadé";
     insertActualite($idpays,$titre,$date,$apropos,$sary,$url);
-    echo "vita";
     header('Location: home.php');
 ?>

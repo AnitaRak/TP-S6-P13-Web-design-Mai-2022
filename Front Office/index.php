@@ -26,7 +26,7 @@ h2 { color: #77b5fe; }
             <div class="card" style="width: 800px;">
                 <div class="row no-gutters">
                     <div class="col-sm-2">
-                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/productionEnergie.jpg" alt="Suresh Dasari Card" width="50px" height="50px">
+                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/productionEnergie.jpg" alt="Suresh Dasari Card" width="80px" height="80px">
                     </div>
                     <div class="col-sm-10">
                         <div class="card-body">
@@ -40,7 +40,7 @@ h2 { color: #77b5fe; }
             <div class="card" style="width: 800px;">
                 <div class="row no-gutters">
                     <div class="col-sm-2">
-                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/productionIndustrielle.jpg" alt="Suresh Dasari Card" width="50px" height="50px">
+                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/productionIndustrielle.jpg" alt="Suresh Dasari Card" width="80px" height="80px">
                     </div>
                     <div class="col-sm-10">
                         <div class="card-body">
@@ -54,7 +54,7 @@ h2 { color: #77b5fe; }
             <div class="card" style="width: 800px;">
                 <div class="row no-gutters">
                     <div class="col-sm-2">
-                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/deforestation1.jpg" alt="Suresh Dasari Card" width="50px" height="50px">
+                        <img class="card-img" src="https://echauffement-climatique.herokuapp.com/Back%20Office/image/deforestation1.jpg" alt="Suresh Dasari Card" width="80px" height="80px">
                     </div>
                     <div class="col-sm-10">
                         <div class="card-body">
