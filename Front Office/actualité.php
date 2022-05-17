@@ -1,5 +1,6 @@
 <?php include 'templateHaut.php';
     $listAct = lesActualites();
+    var_dump($listAct);
    
 ?>
 <center><h1>Les actualités des rechauffement climatique</h1></center>
