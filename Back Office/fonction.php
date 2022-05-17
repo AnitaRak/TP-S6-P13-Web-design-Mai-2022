@@ -82,13 +82,16 @@
         $exec = $res->execute();
     }
 
-    function recherhche($pays,$date){
+    function recherche($pays,$date){
         include('connexion.php');
-        if($pays == null ){
-            $data = $conn->query("SELECT * FROM listeActualite Where pays = " . $pays)->fetchAll();
+        if($pays == "" ){
+            $data = $conn->query("SELECT * FROM listeActualite Where nom = '" . $pays."'")->fetchAll();
         }
-        if($date == null){
-            $data = $conn->query("SELECT * FROM listeActualite Where daty = " . $date)->fetchAll();
+        if($date == ""){
+            $data = $conn->query("SELECT * FROM listeActualite Where daty = '" . $date."'")->fetchAll();
+        }
+        if($pays != "" &&  $date != "" ){
+            $data = $conn->query("SELECT * FROM listeActualite Where daty = '" . $date ." ' and nom = '" .$pays."'")->fetchAll();
         }
         return $data;
     }
