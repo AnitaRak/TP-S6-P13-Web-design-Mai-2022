@@ -50,6 +50,17 @@ $(document).ready(function(){
             </ul>
       </nav>
 </div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+    <form action="http://localhost:8080/Resto/TraitementStock" method="get">
+        <p>Pays : <input type="text" name="pays"></p>
+        <p>Date : <input type="date" name="date"></p>
+        <input type="submit" value="voir">
+    </form>
+    </div>
+    <div class="col-md-4"></div>
+</div>
 <div class="container">
     <div class="table-responsive">
         <div class="table-wrapper">			
